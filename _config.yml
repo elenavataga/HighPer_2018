@@ -6,7 +6,7 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "HPC in a day"
+title: "Introduction to HPC"
 
 # Contact email address.
 email: lessons@software-carpentry.org
@@ -38,7 +38,7 @@ training_site: "https://swcarpentry.github.io/instructor-training"
 # this is the scheduler to be used for the workshop
 # possible values: lsf, slurm
 workshop_scheduler: "slurm"
-workshop_login_host: "cray-1"
+workshop_login_host: "kerbero.ift.uam-csic.es"
 workshop_shared_fast_filesystem: "/fastfs"
 
 # Surveys.

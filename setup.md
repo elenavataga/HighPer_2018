@@ -18,7 +18,9 @@ Please make sure that ssh is in your PATH or to install ssh with your distributi
 
 ### Windows
 
-It depends on your version of windows how and if you have to install a terminal and/or a ssh client. Typically, [putty](http://www.putty.org), [bitvise SSH](https://www.bitvise.com/ssh-client-download) or [mRemoteNG](https://mremoteng.org/) are a good choices.
+It depends on your version of windows how and if you have to install a terminal and/or a ssh client. 
+We recommend [MobaXterm](https://mobaxterm.mobatek.net/) - choose Home/Portable edition.
+Other choices are [putty](http://www.putty.org) or [bitvise SSH](https://www.bitvise.com/ssh-client-download) 
 
 
 ## Logging in
@@ -34,7 +36,7 @@ If you run Mac OS X or any other Unix-based operating system on your machine,
 you can log in remotely by opening a terminal and using the `ssh` command:
 
 ~~~
-$ ssh username@{{ site.workshop_login_host }}
+$ ssh userNN@{{ site.workshop_login_host }}
 ~~~
 
 Make sure to change `username` to the username you will have on the remote machine. Also, please change `{{ site.workshop_login_host }}` to what your instructors tells you.
