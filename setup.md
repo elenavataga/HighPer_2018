@@ -36,8 +36,8 @@ If you run Mac OS X or any other Unix-based operating system on your machine,
 you can log in remotely by opening a terminal and using the `ssh` command:
 
 ~~~
-$ ssh userNN@{{ site.workshop_login_host }}
+$ ssh username@{{ site.workshop_login_host }}
 ~~~
 
-Make sure to change `username` to the username you will have on the remote machine. Also, please change `{{ site.workshop_login_host }}` to what your instructors tells you.
+Make sure to change `username` to the username you will have on the remote machine. 
 
