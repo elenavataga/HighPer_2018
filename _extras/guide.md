@@ -3,7 +3,7 @@ layout: page
 title: "Instructor Notes"
 ---
 
-# Instructor's Briefung
+# Instructor's Briefing
 
 This document tries to describe what preparations are required of instructors to make the workshop work as smooth as possible. In order to build the materials for the workshop at your site, consult the `_config.yaml` file before you generate the site with `make site`. It contains the 'environment variables' that are specific to your workshop, such as the name of the login node, the root folder of the shared file system etc.
 

@@ -41,3 +41,7 @@ $ ssh username@{{ site.workshop_login_host }}
 
 Make sure to change `username` to the username you will have on the remote machine. 
 
+## Download files
+
+Download [examples.tgz]({{ page.root }}/data/examples.tgz) and move the file to kerberos.
+
